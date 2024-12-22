@@ -16,10 +16,10 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -41,13 +41,19 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Plan-it (Personalized Travel Planner)',
           description:
             'A user-friendly web app for personalized travel planning, offering predictive analytics on zonal busyness to help users make informed decisions. It enables seamless exploration, itinerary creation, interactive map views, and recommendations, focusing on spontaneous, authentic experiences. Currently tailored for Manhattan, NYC.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
+        {
+          title: 'Explorer on Independence Year by Country (Vega-Lite)',
+          description: 'A visualization of the independence year of countries using Vega-Lite.',
+          imageUrl: 'https://user-images.githubusercontent.com/589034/51515716-9fe92700-1dc9-11e9-93a7-11678571296d.png',
+          link: 'https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQUOQDMaZNKGQAnANZaQNWcSTCAJmlkNBgpZjZtBmGjjSqzEOAF8l0M3CGxqYWhiqCbDqGIQyB6MJkWGQ6SACeIN6Z9jRQBqig9Dl6snAQEGgATFkgxCqyUEiYaADaoADuNOb0aACMAAwDSvAaWGgAbIMgLpiCcQVwAB5N6ADCcLNMKZhw5gAEAJpwSDq7bKq7AJKy5nA4cNf3UHC7TKm7K2wMspg66UpmGnk6Ce3zgUV8IHMjRQ+RADB0gjQGGweEIBBSbWodEYTAYXh0dW230oKgQvAo5IEUMwSC8mAgBGQxgI1KQBDakUE5n4PX6CCkMnkSlUkWQywKqTuSIcODY0jkihAqiOmHhcWUn2+OhopQyEJ+SFkEBFOgQLVAETYegYbnQnUVqh0bDNsNZhnhiPQWFw+CIGKx9GYeLBhPumBJzoI+wAovwAIrGMguQ0EYw3O4PepwAD6UNSuehdPRcFUDPgSHMDOQEG2OgIMCcnTSEGzUFmhp2JIgxAySj0cHSwM1P3zFwAygB5B06rnlVDNECpI5RJRL47Zs7ZuCkb6KlRfEeK7dh1vOhCISKNHbZw3mbOyNjbcpKNO3e43LPZx3OxWyJDnjdVGzBsLDSEAAF0IRuDwbHFRdlysGw7A1A9fkQ2wlGPb5TwQc8EEvbY71ve9H11VBrFsLJQAaQQoBsK8kTXHQAApqQYfkmMArcd0wABKRVaSRFYzGzQ5jl7aizDowQGPQNj+WEwRROXXYAEIAF5dgowRdgAfl2ZiKj6CoABZdn4XZ5MoRTlOOXjdlQLSkIEud4OOFsIGMJ5s1fDMPyeCSlRoZwwUMHBjn-Rjl2zTY8RgPVwKUXQ8hAMg4DYCAYCQKVMPqNhzETMInEiQx1HWSx0CYjyvJzXz30eQJ7EldUAEcGENaZGhoUhFX8WZDC4RB1SYQRYnKfU6H69AxJ0CBdjHGrLgePyGt7KZHGcVxzSC8qkX3LU-imSb1Q+VD0l8UAyq5JE6szbzvzNbIZnVK503qrNdgAMSdM0Lp267KuizcsKaJ6ppAGa5rOXZox4xVMGa6VEFlFJEWyc8AFVZDoKLxL+q6KpAP8AM3ECm0O6ZwYAOX-Z5oYACUbPNAoJpEQZwvCCOvYiHyfeHjqRKnSPwDJIKUHAnUkOAoBcBVYQRqV0DgNqaB0aWaVkMh6PBP63VhD0kW9VE-SQTFaEDXF8VDYlSSjWME015NZFTZb3u8vMCxpIs1dLesjkrRlaVresmebVt2xKcwux7CFwpSBA51aInadxnQYp0OLevWdXDAV9VjFrEIjzygrNcTkAFggzJEpADouni1B+kmA0jRNF0k5o6TZKMVRmNfBYzlYxp2NYV27pzB6FF2AByLGRD2ABpRNzGdaf7IAPk0vpdgAHx33Z+8Hqzbv8iefqn6eACFtRpYw192Tfdj6C+58I3Yl81leEGnqeaF7w-e7HzHqfL858Z7fUNE8e+j9n7gJSFmH+B9-4PAHoA4e-IT4NVAc6C+Y5wrY0yjDBAOBVZwGgVvXe+8AFD1VBg4BWDJ4zzwUgO+G8t64PwTQQh0ZiGkMQX-PuKCj7oNHm9ce2CEC4LYMQHUmBdhzzkOQp+lCD5CLQbQ0Rb5xGMOngAJTxJ5Q081pGyK+jsMEXVSDGKgDQAENZdi6NuMwYQUAlGwL0QY2xBAMZjjHLo-hyCbioJoSPTBn4dEAAVIiqgoIINxF8ok6BiWYRB2leLpPSS5JED5TQAgAF7XjCfdH6LNgq1iRFZHJyBhAFLvEUs+zo1KaW0qLJKxw8gSkVkdXIe5hC2h+LECEjx8qFVhJXWErNAbrmBnDPwNE5iQmdCwoEC4ehiAAOxiEVEZYyVcmpdO2MQy8aMjqY2xssNyK4jrPSRDNNag5LozkJlU-JhT6HhJKfs9UD4EDGDMPzG56BXpaNPl9Ep+oNouFtEnSZKEDoAvBqdeF+Mnk3XecUn8YMXroueN9H8KLdpTLTjMsMCL1SQ1OOcWGpKvlIyOajfmZycZEtKYS5OJMgJk2ZliwWtNKW7EZqBc6ChHlsvZqSTmWxubXBInzHl6AhZPnQN4SCKrvBAA/view'
+        }
       ],
     },
   },
@@ -109,19 +115,19 @@ const CONFIG = {
     },
     {
       company: 'Department of Domestic Think Tank, Institute of New Structural Economics, Peking University',
-      position: 'Position',
+      position: 'Operation Specialist',
       from: 'October 2019',
       to: 'January 2021',
       companyLink: 'https://www.nse.pku.edu.cn/en/index.htm',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
@@ -156,9 +162,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -236,7 +242,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>`,
 
   enablePWA: true,
 };
