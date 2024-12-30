@@ -38,7 +38,7 @@ const CONFIG = {
             'A web application that helps users to plan their bike trips in Dublin. It provides the best route and station availability predictions based on the historical data and the real-time weather information. Hosted on AWS EC2.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'http://yourbike.v6.rocks',
         },
         {
           title: 'Plan-it (Personalized Travel Planner)',
