@@ -37,16 +37,16 @@ const CONFIG = {
           description:
             'A web application that helps users to plan their bike trips in Dublin. It provides the best route and station availability predictions based on the historical data and the real-time weather information. Hosted on AWS EC2.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkro-SZyzSTAxd7OpyiV8UyRvgQeIGzLguQ&s',
           link: 'http://yourbike.v6.rocks',
         },
         {
-          title: 'Plan-it (Personalized Travel Planner)',
+          title: '(OFFLINE for now) Plan-it (Personalized Travel Planner)',
           description:
             'A user-friendly web app for personalized travel planning, offering predictive analytics on zonal busyness to help users make informed decisions. It enables seamless exploration, itinerary creation, interactive map views, and recommendations, focusing on spontaneous, authentic experiences. Currently tailored for Manhattan, NYC.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'nycplanner.v6.rocks',
         },
         {
           title: 'Explorer on Independence Year by Country (Vega-Lite)',
