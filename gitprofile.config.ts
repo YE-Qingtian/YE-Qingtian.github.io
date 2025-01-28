@@ -41,12 +41,12 @@ const CONFIG = {
           link: 'https://yourbike.v6.rocks/',
         },
         {
-          title: '[Partially Working] Plan-it (Personalized Travel Planner)',
+          title: '[Archival Demo] Plan-it (Personalized Travel Planner)',
           description:
-            'A user-friendly web app for personalized travel planning, offering predictive analytics on zonal busyness to help users make informed decisions. It enables seamless exploration, itinerary creation, interactive map views, and recommendations, focusing on spontaneous, authentic experiences. Currently tailored for Manhattan, NYC.',
+            'A user-friendly web app for personalized travel planning, offering predictive analytics on zonal busyness to help users make informed decisions. It enables seamless exploration, itinerary creation, interactive map views, and recommendations, focusing on spontaneous, authentic experiences. Currently tailored for Manhattan, NYC. [Only core web service now functioning]',
           imageUrl:
             'https://commons.wikimedia.org/wiki/File:Map_marker_font_awesome.svg#/media/File:Map_marker_font_awesome.svg',
-          link: 'https://nycplanner.v6.rocks',
+          link: 'http://nycplanner.v6.rocks',
         },
         {
           title: 'Explorer on Independence Year by Country (Vega-Lite)',
